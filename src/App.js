@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import logo from './talkstechylogo.png';
 import './App.css';
 
 function App() {
@@ -6,17 +7,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        <h1>
+          Welcome to Talkstechy
+        </h1>
+        {/* <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://avinashdewangan.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+          See React JS aap with netlify
+        </a> */}
       </header>
     </div>
   );
