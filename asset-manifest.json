@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/talkstechy/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/talkstechy/static/js/main.aa1f66ec.chunk.js",
+    "main.js.map": "/talkstechy/static/js/main.aa1f66ec.chunk.js.map",
+    "runtime-main.js": "/talkstechy/static/js/runtime-main.c08b6a01.js",
+    "runtime-main.js.map": "/talkstechy/static/js/runtime-main.c08b6a01.js.map",
+    "static/js/2.970458ce.chunk.js": "/talkstechy/static/js/2.970458ce.chunk.js",
+    "static/js/2.970458ce.chunk.js.map": "/talkstechy/static/js/2.970458ce.chunk.js.map",
+    "static/js/3.7f90bb97.chunk.js": "/talkstechy/static/js/3.7f90bb97.chunk.js",
+    "static/js/3.7f90bb97.chunk.js.map": "/talkstechy/static/js/3.7f90bb97.chunk.js.map",
+    "index.html": "/talkstechy/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/talkstechy/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.970458ce.chunk.js.LICENSE.txt": "/talkstechy/static/js/2.970458ce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c08b6a01.js",
+    "static/js/2.970458ce.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.aa1f66ec.chunk.js"
+  ]
+}
