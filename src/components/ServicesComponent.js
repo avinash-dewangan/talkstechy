@@ -1,6 +1,7 @@
 import React from 'react';
 import Common from '../components/common/Common';
 import CardComponent from './common/CardComponent';
+import { withRouter } from 'react-router-dom';
 const ServicesComponent = () => {
     return (
         <>
@@ -20,4 +21,4 @@ const ServicesComponent = () => {
     )
 }
 
-export default ServicesComponent;
+export default withRouter(ServicesComponent);
