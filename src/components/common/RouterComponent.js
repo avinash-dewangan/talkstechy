@@ -13,7 +13,7 @@ class RouterComponent extends Component {
                 <Route exact path="/about" component={AboutComponent} />
                 <Route exact path="/contact" component={ContactComponent} />
                 <Route exact path="/services" component={ServicesComponent} />
-
+                <Route component={NotFound} />
                 <Redirect to="/" />
             </Switch>
         );
