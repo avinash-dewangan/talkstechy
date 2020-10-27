@@ -4,6 +4,7 @@ import AboutComponent from '../AboutComponent';
 import ContactComponent from '../ContactComponent';
 import ServicesComponent from '../ServicesComponent';
 import { Route, Switch, Redirect } from "react-router-dom";
+import NotFound from '../NotFound';
 class RouterComponent extends Component {
     state = {}
     render() {
