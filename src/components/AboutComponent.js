@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Common from '../components/common/Common';
 const AboutComponent = () => {
+
+    useCallback(() => {
+        document.title = "Welcome to About Page";
+    })
     return (
         <Common name='Welcome to About Page'
             imgsrc={process.env.PUBLIC_URL + "/assets/features-2.svg"}

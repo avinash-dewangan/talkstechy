@@ -5,6 +5,7 @@ import ContactComponent from '../ContactComponent';
 import ServicesComponent from '../ServicesComponent';
 import { Route, Switch, Redirect } from "react-router-dom";
 import NotFound from '../NotFound';
+import DocsComponent from '../DocsComponent';
 class RouterComponent extends Component {
     state = {}
     render() {
@@ -14,6 +15,7 @@ class RouterComponent extends Component {
                 <Route exact path="/about" component={AboutComponent} />
                 <Route exact path="/contact" component={ContactComponent} />
                 <Route exact path="/services" component={ServicesComponent} />
+                <Route exact path="/docs" component={DocsComponent} />
                 <Route component={NotFound} />
                 <Redirect to="/" />
             </Switch>

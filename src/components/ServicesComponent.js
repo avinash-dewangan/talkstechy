@@ -3,6 +3,10 @@ import Common from '../components/common/Common';
 import CardComponent from './common/CardComponent';
 import { withRouter } from 'react-router-dom';
 const ServicesComponent = () => {
+
+    useCallback(() => {
+        document.title = "Talks Techy | Our Services";
+    })
     return (
         <>
             <div className="my-5">

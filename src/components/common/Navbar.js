@@ -32,6 +32,9 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <NavLink className="nav-link" exact to="/contact">Contact</NavLink>
                                     </li>
+                                    <li className="nav-item">
+                                        <NavLink className="nav-link" exact to="/docs">Docs</NavLink>
+                                    </li>
 
                                     {/* <li className="nav-item">
                                 <NavLink className="nav-link" exact to="/todo">Todo</NavLink>
