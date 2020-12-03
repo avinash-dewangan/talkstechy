@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Common from '../components/common/Common';
 const HomeComponent = () => {
-    useCallback(() => {
+    useEffect(() => {
         document.title = "Talks Techy | Home";
     })
     return (

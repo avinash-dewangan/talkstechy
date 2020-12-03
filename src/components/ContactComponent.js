@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Common from '../components/common/Common';
 const ContactCompoent = () => {
     const [state, setstate] = useState({
@@ -21,7 +21,7 @@ const ContactCompoent = () => {
             }
         })
     }
-    useCallback(() => {
+    useEffect(() => {
         document.title = "Talks Techy | Contact US";
     })
     return (

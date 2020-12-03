@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Common from '../components/common/Common';
 const AboutComponent = () => {
 
-    useCallback(() => {
+    useEffect(() => {
         document.title = "Welcome to About Page";
     })
     return (
