@@ -46,6 +46,7 @@ header {
 
 .main-container {
   height: auto;
+  min-height: 700px;
 }
 
 .not-found {
@@ -60,7 +61,7 @@ header {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;

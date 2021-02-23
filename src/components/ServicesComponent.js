@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Common from '../components/common/Common';
+//import Common from '../components/common/Common';
 import CardComponent from './common/CardComponent';
 import { withRouter } from 'react-router-dom';
 const ServicesComponent = () => {

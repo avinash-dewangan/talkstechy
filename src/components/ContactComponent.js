@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Common from '../components/common/Common';
+//import Common from '../components/common/Common';
 const ContactCompoent = () => {
     const [state, setstate] = useState({
         fullname: '',

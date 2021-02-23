@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../../styles/footer.scss";
+import "../styles/footer.scss";
 
 class Footer extends Component {
     state = {}
@@ -8,7 +8,7 @@ class Footer extends Component {
             <footer className="page-footer font-small blue" >
                 {/* copy-right */}
                 < div className="footer-copyright text-center py-3" >
-                    &copy; {new Date().getFullYear()} Copyright: <a href="https://www.talkstechy.com" target="_blank"> talkstechy.com </a>
+                    &copy; {new Date().getFullYear()} Copyright: <a href="https://www.talkstechy.com" target="_blank" rel="noreferrer"> talkstechy.com </a>
                 </div >
             </footer >
         );

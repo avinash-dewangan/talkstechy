@@ -7,12 +7,12 @@ function DocsComponent() {
             {/* <!-- Sidebar --> */}
             <div className="col-2 bg-light border-right" id="sidebar-wrapper">
                 <div className="list-group list-group-flush">
-                    <a href="#" className="list-group-item list-group-item-action bg-light">Pagination</a>
-                    <a href="#" className="list-group-item list-group-item-action bg-light">Image lazy Logding</a>
-                    <a href="#" className="list-group-item list-group-item-action bg-light">Form Submit</a>
-                    <a href="#" className="list-group-item list-group-item-action bg-light">API Call</a>
-                    <a href="#" className="list-group-item list-group-item-action bg-light">Profile</a>
-                    <a href="#" className="list-group-item list-group-item-action bg-light">Status</a>
+                    <a href="https://www.google.com" className="list-group-item list-group-item-action bg-light">Pagination</a>
+                    <a href="https://www.google.com" className="list-group-item list-group-item-action bg-light">Image lazy Logding</a>
+                    <a href="https://www.google.com" className="list-group-item list-group-item-action bg-light">Form Submit</a>
+                    <a href="https://www.google.com" className="list-group-item list-group-item-action bg-light">API Call</a>
+                    <a href="https://www.google.com" className="list-group-item list-group-item-action bg-light">Profile</a>
+                    <a href="https://www.google.com" className="list-group-item list-group-item-action bg-light">Status</a>
                 </div>
             </div>
             {/* <!-- /#sidebar-wrapper --> */}
